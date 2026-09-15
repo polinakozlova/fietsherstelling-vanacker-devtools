@@ -1,0 +1,45 @@
+/*
+ * Homepage
+ */
+
+.services {
+   display: grid;
+   gap: 24px;
+}
+
+.service-card {
+   background-color: #fff;
+   border-radius: 6px;
+   box-shadow: 0 2px 6px rgb(44 38 32 / 10%);
+   padding: 28px;
+   text-decoration: none;
+   transition: box-shadow 0.2s;
+}
+
+.service-card:hover {
+   box-shadow: 0 4px 10px rgb(44 38 32 / 18%);
+}
+
+.service-card__icon {
+   color: var(--color-accent);
+   font-size: 30px;
+   margin-bottom: 14px;
+}
+
+.testimonial {
+   border-left: 4px solid var(--color-accent);
+   margin: 40px auto 0;
+   max-width: 700px;
+   padding: 10px 24px;
+}
+
+.testimonial footer {
+   color: var(--color-blue);
+   margin-top: 10px;
+}
+
+@media (width >= 700px) {
+   .services {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}

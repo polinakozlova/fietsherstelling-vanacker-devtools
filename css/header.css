@@ -1,0 +1,27 @@
+/*
+ * Site header
+ */
+
+.site-header {
+   align-items: center;
+   background-color: var(--color-header-bg);
+   display: flex;
+   justify-content: space-between;
+   padding: 18px 20px;
+}
+
+.site-header__logo {
+   display: block;
+   width: 150px;
+}
+
+.site-header__logo-img {
+   display: none;
+   width: 150px;
+}
+
+@media (width >= 480px) {
+   .site-header__logo-img {
+      display: block;
+   }
+}

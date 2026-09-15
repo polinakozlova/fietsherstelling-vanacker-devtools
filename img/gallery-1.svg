@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Werkbank met gereedschap">
+   <rect width="400" height="300" fill="#e7ddce"/>
+   <rect x="0" y="200" width="400" height="100" fill="#a8815c"/>
+   <rect x="40" y="120" width="140" height="14" rx="4" fill="#3f2f24"/>
+   <rect x="200" y="130" width="100" height="10" rx="4" fill="#5a4536"/>
+   <circle cx="320" cy="160" r="18" fill="#b5552b"/>
+</svg>

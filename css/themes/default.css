@@ -1,0 +1,18 @@
+/*
+ * Theme variables
+ */
+
+:root {
+   --color-accent: #b5552b;
+   --color-accent-dark: #93431f;
+   --color-bg: #f7f5f1;
+   --color-blue: #2f6f7e;
+   --color-danger: #9c2f26;
+   --color-danger-dark: #7a241d;
+   --color-footer-bg: #2c2925;
+   --color-footer-text: #d8d2cb;
+   --color-header-bg: #fff;
+   --color-heading: #2c2620;
+   --color-text: #4a423c;
+   --font-primary: 'Poppins', arial, sans-serif;
+}

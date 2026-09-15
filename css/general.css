@@ -1,0 +1,92 @@
+/*
+ * General styles
+ */
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+body {
+   background-color: var(--color-bg);
+   color: var(--color-text);
+   font-family: var(--font-primary);
+   font-size: 17px;
+   line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   color: var(--color-heading);
+   font-weight: 700;
+   line-height: 1.25;
+}
+
+h1 {
+   font-size: 34px;
+}
+
+h2 {
+   font-size: 27px;
+}
+
+h3 {
+   font-size: 21px;
+}
+
+h4 {
+   font-size: 18px;
+}
+
+p {
+   margin-bottom: 18px;
+}
+
+ul,
+ol {
+   list-style-position: inside;
+   margin-bottom: 18px;
+}
+
+a {
+   color: var(--color-accent);
+}
+
+strong {
+   font-weight: 700;
+}
+
+/* classes */
+
+.wrapper {
+   margin: 0 auto;
+   max-width: 1100px;
+   padding: 0 20px;
+}
+
+.section {
+   padding: 60px 0;
+}
+
+.section__title {
+   margin-bottom: 10px;
+}
+
+.section__subtitle {
+   color: var(--color-blue);
+   margin-bottom: 30px;
+}
+
+.section__divider {
+   background-color: var(--color-accent);
+   height: 3px;
+   margin-bottom: 24px;
+   width: 40px;
+}

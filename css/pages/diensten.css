@@ -1,0 +1,18 @@
+/*
+ * Diensten page
+ */
+
+.service-block {
+   margin-bottom: 50px;
+}
+
+.service-block__icon {
+   color: var(--color-accent);
+   display: block;
+   font-size: 28px;
+   margin-bottom: 10px;
+}
+
+.service-block__subtitle {
+   margin-top: 8px;
+}

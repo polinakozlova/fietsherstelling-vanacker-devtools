@@ -1,0 +1,41 @@
+/*
+ * Cookie banner
+ */
+
+.cookiebanner {
+   align-items: center;
+   background-color: var(--color-heading);
+   bottom: 0;
+   color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+   justify-content: space-between;
+   left: 0;
+   padding: 18px 20px;
+   position: fixed;
+   right: 0;
+   z-index: 10;
+}
+
+.cookiebanner__actions {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+}
+
+.cookiebanner__button {
+   background-color: transparent;
+   border: 1px solid #fff;
+   border-radius: 4px;
+   color: #fff;
+   cursor: pointer;
+   font-family: var(--font-primary);
+   font-size: 14px;
+   padding: 10px 16px;
+}
+
+.cookiebanner__button--accent {
+   background-color: var(--color-accent);
+   border-color: var(--color-accent);
+}

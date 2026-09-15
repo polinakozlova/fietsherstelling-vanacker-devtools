@@ -1,0 +1,39 @@
+/*
+ * Homepage banner
+ */
+
+.banner {
+   align-items: flex-start;
+   background-color: var(--color-heading);
+   background-image: linear-gradient(rgb(44 38 32 / 60%), rgb(44 38 32 / 80%)), url(../img/banner-bg.svg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 60px 20px;
+}
+
+.banner__title {
+   color: #fff;
+   font-size: 26px;
+   font-weight: 800;
+   letter-spacing: 0.5px;
+   max-width: 600px;
+}
+
+.banner__actions {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+}
+
+@media (width >= 768px) {
+   .banner {
+      padding: 100px 40px;
+   }
+
+   .banner__title {
+      font-size: 46px;
+   }
+}

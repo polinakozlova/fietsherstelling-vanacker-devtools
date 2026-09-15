@@ -1,0 +1,51 @@
+/*
+ * Main navigation
+ */
+
+.main-menu {
+   align-items: center;
+   display: none;
+   gap: 22px;
+   list-style: none;
+}
+
+.main-menu__link {
+   color: var(--color-heading);
+   font-size: 15px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: color 0.2s;
+}
+
+.main-menu__link:hover {
+   color: var(--color-accent);
+}
+
+#page-home .main-menu__link[href="index.html"],
+#page-atelier .main-menu__link[href="atelier.html"],
+#page-sleutels .main-menu__link[href="sleutels.html"],
+#page-diensten .main-menu__link[href="diensten.html"],
+#page-fotos .main-menu__link[href="fotos.html"],
+#page-contact .main-menu__link[href="contact.html"] {
+   color: var(--color-accent);
+}
+
+.main-menu__toggle {
+   display: block;
+   font-size: 24px;
+}
+
+@media (width >= 768px) {
+   .main-menu {
+      display: flex;
+   }
+
+   .main-menu__link {
+      font-size: 13px;
+   }
+
+   .main-menu__toggle {
+      display: none;
+   }
+}

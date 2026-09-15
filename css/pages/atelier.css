@@ -1,0 +1,31 @@
+/*
+ * Atelier page
+ */
+
+.atelier__intro {
+   display: grid;
+   gap: 30px;
+   margin: 0 auto;
+   max-width: 960px;
+}
+
+.atelier__intro-title {
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+.atelier__materials {
+   margin: 30px 0;
+}
+
+@media (width >= 700px) {
+   .atelier__intro {
+      grid-template-columns: 320px 1fr;
+   }
+}
+
+@media (width >= 1300px) {
+   .atelier__intro {
+      max-width: 1160px;
+   }
+}

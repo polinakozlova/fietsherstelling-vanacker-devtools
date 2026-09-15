@@ -1,0 +1,20 @@
+/*
+ * Contact page
+ */
+
+.contact__grid {
+   display: grid;
+   gap: 40px;
+}
+
+.contact__map iframe {
+   border: none;
+   height: 320px;
+   width: 100%;
+}
+
+@media (width >= 900px) {
+   .contact__grid {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
