@@ -5,12 +5,15 @@
 .services {
    display: grid;
    gap: 24px;
+   list-style: none;
 }
 
 .service-card {
    background-color: #fff;
    border-radius: 6px;
    box-shadow: 0 2px 6px rgb(44 38 32 / 10%);
+   color: var(--color-text);
+   display: block;
    padding: 28px;
    text-decoration: none;
    transition: box-shadow 0.2s;
@@ -24,6 +27,10 @@
    color: var(--color-accent);
    font-size: 30px;
    margin-bottom: 14px;
+}
+
+.service-card h3 {
+   margin-bottom: 8px;
 }
 
 .testimonial {
