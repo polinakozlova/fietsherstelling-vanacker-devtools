@@ -6,3 +6,13 @@
    margin-bottom: 30px;
    max-width: 700px;
 }
+
+.credits {
+   color: var(--color-blue);
+   font-size: 14px;
+   list-style: none;
+}
+
+.credits li {
+   margin-bottom: 6px;
+}

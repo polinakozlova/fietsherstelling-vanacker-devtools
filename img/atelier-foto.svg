@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-label="Vakman herstelt een fiets in de werkplaats">
-   <rect width="500" height="360" fill="#e7ddce"/>
-   <rect x="0" y="260" width="500" height="100" fill="#a8815c"/>
-   <circle cx="180" cy="140" r="50" fill="#caa76b"/>
-   <rect x="140" y="190" width="80" height="100" rx="20" fill="#5a4536"/>
-   <circle cx="330" cy="250" r="55" fill="none" stroke="#3f2f24" stroke-width="10"/>
-   <circle cx="330" cy="250" r="10" fill="#3f2f24"/>
-</svg>
