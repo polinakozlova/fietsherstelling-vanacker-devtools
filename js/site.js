@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-   localStorage.setItem('atelier_laatst_bezocht', window.location.pathname.split('/').pop() || 'index.html');
+   localStorage.setItem('vanacker_laatst_bezocht', window.location.pathname.split('/').pop() || 'index.html');
 
-   if (document.cookie.indexOf('atelier_cookies=') !== -1) {
+   if (document.cookie.indexOf('vanacker_cookies=') !== -1) {
       return;
    }
 
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
    banner.querySelectorAll('.cookiebanner__button').forEach(function(button) {
       button.addEventListener('click', function() {
-         document.cookie = 'atelier_cookies=' + button.dataset.cookies + '; path=/; max-age=31536000';
+         document.cookie = 'vanacker_cookies=' + button.dataset.cookies + '; path=/; max-age=31536000';
          banner.remove();
       });
    });
