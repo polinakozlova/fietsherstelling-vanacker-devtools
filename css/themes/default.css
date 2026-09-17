@@ -5,15 +5,17 @@
 :root {
    --color-accent: #a8501f;
    --color-accent-dark: #7c3a15;
-   --color-bg: #f5f2ec;
-   --color-blue: #2c5f6b;
+   --color-accent-soft: #f3e3d1;
+   --color-bg: #faf6ef;
+   --color-bg-alt: #f4ebdd;
+   --color-blue: #2f6b62;
    --color-danger: #8f2a22;
    --color-danger-dark: #6e2019;
-   --color-footer-bg: #221c16;
-   --color-footer-text: #cfc6ba;
-   --color-header-bg: #fdfcfa;
-   --color-heading: #221c16;
-   --color-text: #433a32;
+   --color-footer-bg: #1c1611;
+   --color-footer-text: #ddd2c2;
+   --color-header-bg: #fffdfa;
+   --color-heading: #221a12;
+   --color-text: #3d3229;
    --font-body: 'Karla', arial, sans-serif;
    --font-heading: 'Fraunces', georgia, serif;
 }
