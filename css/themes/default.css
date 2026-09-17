@@ -3,16 +3,17 @@
  */
 
 :root {
-   --color-accent: #b5552b;
-   --color-accent-dark: #93431f;
-   --color-bg: #f7f5f1;
-   --color-blue: #2f6f7e;
-   --color-danger: #9c2f26;
-   --color-danger-dark: #7a241d;
-   --color-footer-bg: #2c2925;
-   --color-footer-text: #d8d2cb;
-   --color-header-bg: #fff;
-   --color-heading: #2c2620;
-   --color-text: #4a423c;
-   --font-primary: 'Poppins', arial, sans-serif;
+   --color-accent: #a8501f;
+   --color-accent-dark: #7c3a15;
+   --color-bg: #f5f2ec;
+   --color-blue: #2c5f6b;
+   --color-danger: #8f2a22;
+   --color-danger-dark: #6e2019;
+   --color-footer-bg: #221c16;
+   --color-footer-text: #cfc6ba;
+   --color-header-bg: #fdfcfa;
+   --color-heading: #221c16;
+   --color-text: #433a32;
+   --font-body: 'Karla', arial, sans-serif;
+   --font-heading: 'Fraunces', georgia, serif;
 }

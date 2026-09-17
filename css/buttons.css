@@ -5,17 +5,29 @@
 .button {
    align-items: center;
    background-color: var(--color-accent);
-   border-radius: 4px;
+   border: 2px solid var(--color-accent);
+   border-radius: 3px;
    color: #fff;
    display: inline-flex;
+   font-weight: 500;
    gap: 10px;
-   padding: 14px 24px;
+   padding: 12px 22px;
    text-decoration: none;
    transition: opacity 0.2s;
 }
 
 .button:hover {
    opacity: 0.9;
+}
+
+.button--secondary {
+   background-color: transparent;
+   border-color: rgb(255 255 255 / 55%);
+}
+
+.button--secondary:hover {
+   background-color: rgb(255 255 255 / 12%);
+   opacity: 1;
 }
 
 .back-to-top {

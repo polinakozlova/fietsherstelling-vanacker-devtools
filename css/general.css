@@ -15,9 +15,9 @@ img {
 body {
    background-color: var(--color-bg);
    color: var(--color-text);
-   font-family: var(--font-primary);
+   font-family: var(--font-body);
    font-size: 17px;
-   line-height: 1.6;
+   line-height: 1.65;
 }
 
 h1,
@@ -25,16 +25,18 @@ h2,
 h3,
 h4 {
    color: var(--color-heading);
-   font-weight: 700;
-   line-height: 1.25;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   line-height: 1.2;
 }
 
 h1 {
-   font-size: 34px;
+   font-size: 38px;
+   letter-spacing: -0.5px;
 }
 
 h2 {
-   font-size: 27px;
+   font-size: 28px;
 }
 
 h3 {
@@ -72,7 +74,17 @@ strong {
 }
 
 .section {
-   padding: 60px 0;
+   padding: 64px 0;
+}
+
+.section__eyebrow {
+   color: var(--color-accent);
+   display: block;
+   font-size: 13px;
+   font-weight: 700;
+   letter-spacing: 1.5px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
 }
 
 .section__title {
@@ -82,11 +94,4 @@ strong {
 .section__subtitle {
    color: var(--color-blue);
    margin-bottom: 30px;
-}
-
-.section__divider {
-   background-color: var(--color-accent);
-   height: 3px;
-   margin-bottom: 24px;
-   width: 40px;
 }

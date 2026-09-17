@@ -30,7 +30,7 @@
    border-radius: 4px;
    color: #fff;
    cursor: pointer;
-   font-family: var(--font-primary);
+   font-family: var(--font-body);
    font-size: 14px;
    padding: 10px 16px;
 }
