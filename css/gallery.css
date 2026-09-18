@@ -21,7 +21,7 @@
 
 .gallery__overlay {
    align-items: center;
-   background-color: rgb(from var(--color-heading) r g b / 75%);
+   background-color: rgb(34 26 18 / 75%);
    bottom: 0;
    color: #fff;
    display: flex;
