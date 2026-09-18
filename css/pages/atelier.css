@@ -3,9 +3,10 @@
  */
 
 .atelier__intro {
+   clear: both;
    display: grid;
    gap: 30px;
-   margin: 0 auto;
+   margin-top: 40px;
    max-width: 960px;
 }
 
