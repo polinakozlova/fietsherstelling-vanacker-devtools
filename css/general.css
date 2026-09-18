@@ -78,7 +78,13 @@ strong {
 }
 
 .section {
-   padding: 64px 0;
+   padding: 64px 20px;
+}
+
+@media (width >= 1140px) {
+   .section {
+      padding: 64px 0;
+   }
 }
 
 .section__eyebrow {
