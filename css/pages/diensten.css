@@ -3,14 +3,32 @@
  */
 
 .service-block {
-   margin-bottom: 50px;
+   border-bottom: 1px solid rgb(34 26 18 / 12%);
+   display: flex;
+   gap: 24px;
+   padding: 36px 0;
+}
+
+.service-block:first-of-type {
+   padding-top: 0;
+}
+
+.service-block:last-of-type {
+   border-bottom: none;
+   padding-bottom: 0;
 }
 
 .service-block__icon {
+   align-items: center;
+   background-color: var(--color-accent-soft);
+   border-radius: 50%;
    color: var(--color-accent);
-   display: block;
-   font-size: 28px;
-   margin-bottom: 10px;
+   display: flex;
+   flex-shrink: 0;
+   font-size: 22px;
+   height: 64px;
+   justify-content: center;
+   width: 64px;
 }
 
 .service-block__subtitle {
