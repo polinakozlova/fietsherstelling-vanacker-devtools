@@ -12,12 +12,12 @@
 
 .site-header__logo {
    display: block;
-   width: 150px;
+   width: 190px;
 }
 
 .site-header__logo-img {
    display: none;
-   width: 150px;
+   width: 190px;
 }
 
 @media (width >= 480px) {
