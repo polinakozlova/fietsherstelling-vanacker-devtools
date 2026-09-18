@@ -2,6 +2,40 @@
  * Contact page
  */
 
+.hours {
+   border-collapse: collapse;
+   margin-bottom: 40px;
+   max-width: 420px;
+   width: 100%;
+}
+
+.hours caption {
+   color: var(--color-heading);
+   font-family: var(--font-heading);
+   font-size: 21px;
+   font-weight: 600;
+   margin-bottom: 14px;
+   text-align: left;
+}
+
+.hours th,
+.hours td {
+   border-bottom: 1px solid rgb(34 26 18 / 12%);
+   padding: 10px 12px 10px 0;
+   text-align: left;
+}
+
+.hours thead th {
+   color: var(--color-blue);
+   font-size: 13px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+.hours tbody th {
+   font-weight: 500;
+}
+
 .contact__grid {
    display: grid;
    gap: 40px;
