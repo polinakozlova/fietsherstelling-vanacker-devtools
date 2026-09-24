@@ -8,8 +8,8 @@
 }
 
 .hours caption {
-   color: var(--color-heading);
-   font-family: var(--font-heading);
+   color: #221a12;
+   font-family: 'Fraunces', georgia, serif;
    font-size: 21px;
    font-weight: 600;
    margin-bottom: 14px;
@@ -24,7 +24,7 @@
 }
 
 .hours thead th {
-   color: var(--color-blue);
+   color: #2f6b62;
    font-size: 13px;
    letter-spacing: 1px;
    text-transform: uppercase;

@@ -20,9 +20,9 @@
 
 .service-block__icon {
    align-items: center;
-   background-color: var(--color-accent-soft);
+   background-color: #f3e3d1;
    border-radius: 50%;
-   color: var(--color-accent);
+   color: #a8501f;
    display: flex;
    flex-shrink: 0;
    font-size: 22px;

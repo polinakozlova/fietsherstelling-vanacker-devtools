@@ -3,8 +3,8 @@
  */
 
 .site-footer {
-   background-color: var(--color-footer-bg);
-   color: var(--color-footer-text);
+   background-color: #1c1611;
+   color: #ddd2c2;
    padding: 56px 20px 24px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .site-footer address a {
-   color: var(--color-footer-text);
+   color: #ddd2c2;
 }
 
 .site-footer__links {
@@ -42,7 +42,7 @@
 }
 
 .site-footer__links a {
-   color: var(--color-footer-text);
+   color: #ddd2c2;
    text-decoration: none;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .site-footer__social a {
-   color: var(--color-footer-text);
+   color: #ddd2c2;
    font-size: 20px;
 }
 

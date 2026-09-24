@@ -4,7 +4,7 @@
 
 .cookiebanner {
    align-items: center;
-   background-color: var(--color-heading);
+   background-color: #221a12;
    bottom: 0;
    color: #fff;
    display: flex;
@@ -30,12 +30,12 @@
    border-radius: 4px;
    color: #fff;
    cursor: pointer;
-   font-family: var(--font-body);
+   font-family: 'Karla', arial, sans-serif;
    font-size: 14px;
    padding: 10px 16px;
 }
 
 .cookiebanner__button--accent {
-   background-color: var(--color-accent);
-   border-color: var(--color-accent);
+   background-color: #a8501f;
+   border-color: #a8501f;
 }

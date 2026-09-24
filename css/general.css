@@ -13,9 +13,9 @@ img {
 }
 
 body {
-   background-color: var(--color-bg);
-   color: var(--color-text);
-   font-family: var(--font-body);
+   background-color: #faf6ef;
+   color: #3d3229;
+   font-family: 'Karla', arial, sans-serif;
    font-size: 17px;
    line-height: 1.65;
 }
@@ -24,8 +24,8 @@ h1,
 h2,
 h3,
 h4 {
-   color: var(--color-heading);
-   font-family: var(--font-heading);
+   color: #221a12;
+   font-family: 'Fraunces', georgia, serif;
    font-weight: 600;
    line-height: 1.2;
 }
@@ -62,7 +62,7 @@ ol {
 }
 
 a {
-   color: var(--color-accent);
+   color: #a8501f;
 }
 
 strong {
@@ -88,7 +88,7 @@ strong {
 }
 
 .section__eyebrow {
-   color: var(--color-accent);
+   color: #a8501f;
    display: block;
    font-size: 13px;
    font-weight: 700;
@@ -102,6 +102,6 @@ strong {
 }
 
 .section__subtitle {
-   color: var(--color-blue);
+   color: #2f6b62;
    margin-bottom: 30px;
 }
